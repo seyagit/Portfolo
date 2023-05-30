@@ -28,7 +28,7 @@ Moreno has set a clear goal: Design marketing strategies aimed at converting cas
 ## About Data
 ### This data is for clients who used the service between January 2022 and December 2022.
 
-Download the previous 12 months of Cyclistic trip data [here.](https://divvy-tripdata.s3.amazonaws.com/index.html) (Note: The datasets have a different name because Cyclistic is a fictional company. For the purposes of this case study, the datasets are appropriate and will enable you to answer the business questions. The data has been made available by Motivate International Inc. under this [license](https://ride.divvybikes.com/data-license-agreement).) 
+Download the previous 12 months of Cyclistic trip data [here.](https://divvy-tripdata.s3.amazonaws.com/index.html) (Note: The datasets have a different name because Cyclistic is a fictional company. For the purposes of this case study, the datasets are appropriate and will enable you to answer the business questions. The data has been made available by Motivate International Inc. under this [license](https://ride.divvybikes.com/data-license-agreement).
 
 And I am already using bigquery to consolidate monthly data by quarter.
 
