@@ -164,7 +164,7 @@ The average time spent by casual members is longer than that of annual members, 
 
 
 ## Visualize bike usage rate by day of the week for each membership type
-```{r echo=FALSE}
+```{r}
 cyclistic_df %>% 
   select(member_casual, rideable_type) %>% 
   group_by(member_casual, rideable_type) %>% 
@@ -185,7 +185,7 @@ Given the assumption that docked bike users are likely family members, offering 
 
 
 ## Visualize casual member top 10 start station
-```{r echo=FALSE}
+```{r}
 # Save the intermediate results to a variable
 casual_top_stations <- cyclistic_df %>%
   select(member_casual, start_station_name) %>% 
